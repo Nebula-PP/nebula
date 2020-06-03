@@ -27,3 +27,8 @@
     方法1：把文字移到盒子外面（text-indent：-9999px），然后overflow：hidden，淘宝的做法。
     方法2：直接font-size：0；就看不到文字了，京东的做法。
   4.给链接一个title属性，这样鼠标放在logo上就可以看到提示文字了。
+  
+###<CSS3盒子模型>
+  1、box-sizing:content-box盒子大小为width+padding+margin。这种盒子模型也就是CSS2的盒子模型。
+  2、box-sizing:border-box盒子大小为width。也就是说margin和padding在width中，只要width给值后，不管你怎么改变padding或margin的值，盒子总的大小是不会变的，它只会向内缩，减小内容的区域。
+
