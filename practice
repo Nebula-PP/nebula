@@ -19,6 +19,7 @@
 <svg class="icon" aria-hidden="true">
     <use xlink:href="#icon-xxx"></use>
 </svg>
+修改icon大小（改svg）用font-size，位置用height。
 
 ###<LOGO SEO优化>
   1.logo里放一个h1标签，目的是提权，告诉搜索引擎这里很重要。
