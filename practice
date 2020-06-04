@@ -19,7 +19,8 @@
 <svg class="icon" aria-hidden="true">
     <use xlink:href="#icon-xxx"></use>
 </svg>
-修改icon大小（改svg）用font-size，位置用height。
+注意：1.修改icon大小（改svg）用font-size，位置用height.
+     2.部分icon颜色不可修改，在我的项目中批量操作-批量去色，即可在css中修改color.
 
 ###<LOGO SEO优化>
   1.logo里放一个h1标签，目的是提权，告诉搜索引擎这里很重要。
