@@ -33,3 +33,19 @@
   1、box-sizing:content-box盒子大小为width+padding+margin。这种盒子模型也就是CSS2的盒子模型。
   2、box-sizing:border-box盒子大小为width。也就是说margin和padding在width中，只要width给值后，不管你怎么改变padding或margin的值，盒子总的大小是不会变的，它只会向内缩，减小内容的区域。
 
+###<CSS3过渡效果>
+  transition属性， transition：属性名称 过渡时间 速度曲线 何时开始，属性2名称 ...
+  例：<li><a>123</a></li>  li底色变色，li中a文字变色
+      li{
+        width: 210px;
+        height: 32px;
+        background-color: #c81623;
+        transition: padding 0.7s, color 0.7s;
+      }
+      .dropdown li:hover{
+         padding-left: 10px;
+         background-color: #fff;
+      }
+      .dropdown li:hover a{
+         color: #c81623;
+      }//当经过li时，li中a属性改变的写法.
