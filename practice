@@ -21,7 +21,8 @@
 </svg>
 注意：1.修改icon大小（改svg）用font-size，位置用height.
      2.部分icon颜色不可修改，在我的项目中批量操作-批量去色，即可在css中修改color.
-%%%疑问：将svg放在div中，设置了div的不透明度opacity，但svg的不透明度也跟着改变，无法设置svg的不透明度。
+%%%疑问(已解决)：将svg放在div中，设置了div的不透明度opacity，但svg的不透明度也跟着改变，无法设置svg的不透明度。
+      解决方法：用rgba设置div的background-color。
 
 ###<LOGO SEO优化>
   1.logo里放一个h1标签，目的是提权，告诉搜索引擎这里很重要。
