@@ -88,3 +88,38 @@
 ###<外边距合并>
   方法一：设置父元素的overflow属性为hidden。
   方法二：设置父元素的border属性，如：border:1px solid red;
+
+###<电梯导航栏>
+  用固定定位position：fixed；
+  横向用left：50%；再margin-left负的左位移值。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
