@@ -104,6 +104,49 @@
   子类调用父类中使用this.x,this.y的方法时，构造函数传参使用super（x，y）；来使用父类的构造方法。
   注意：子类构造函数中super必须在this之前调用。
 
+###浏览器：渲染引擎和JS引擎
+  渲染引擎：解析HTML和CSS，俗称内核。比如chrome的blink，老版本webkit.
+  JS引擎：JS解释器，对JS代码处理后运行。比如chrome的V8.
+
+###脚本语言：逐行解释执行
+
+###JavaScript：ECMAScript：语法
+              DOM：页面文档对象模型
+              BOM：浏览器对象模型
+
+###输入框：prompt('');
+   弹出警示框：alert('');
+   控制台输出：console.log('');
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
